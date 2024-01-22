@@ -10,7 +10,7 @@ from src.mcqGenerator.logger import logging
 
 
 # loading json file
-with open(r'C:\Users\ASUS\Desktop\GenAI\MCQ Generator\Response.json','r') as file:
+with open(r'Response.json','r') as file:
     RESPONSE_JSON=json.load(file)
 
 # creating a title for the app

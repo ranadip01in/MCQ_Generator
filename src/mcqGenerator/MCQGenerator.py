@@ -20,6 +20,7 @@ from dotenv import load_dotenv
 load_dotenv() #take environment variable from .env files
 
 KEY=os.getenv('OPEN_API_KEY')
+print(KEY)
 
 # calling openai api
 llm=ChatOpenAI(openai_api_key=KEY,model_name='gpt-3.5-turbo',temperature=0.5)
