@@ -8,6 +8,7 @@ from langchain_community.callbacks import get_openai_callback
 from src.mcqGenerator.MCQGenerator import generate_evaluate_chain
 from src.mcqGenerator.logger import logging
 
+
 # loading json file
 with open(r'C:\Users\ASUS\Desktop\GenAI\MCQ Generator\Response.json','r') as file:
     RESPONSE_JSON=json.load(file)
